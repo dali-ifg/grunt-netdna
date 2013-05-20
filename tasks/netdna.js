@@ -25,9 +25,9 @@ module.exports = function(grunt) {
 
     var netdnaConfig = require(require('path').resolve(netdnaConfigPath));
     var netdna = require('netdna')({
-      companyAlias: netdnaConfig.netdna.companyAlias || 'ifeelgoods' ,
-      consumerKey: netdnaConfig.netdna.consumerKey || 'afe997df77c61ee993d7490a134f3c84051879e3b',
-      consumerSecret: netdnaConfig.netdna.consumerSecret || 'ebb5a27664030f71118626afa5a37b37'
+      companyAlias: netdnaConfig.netdna.companyAlias || 'companyAlias' ,
+      consumerKey: netdnaConfig.netdna.consumerKey || 'consumerKey-XXXX',
+      consumerSecret: netdnaConfig.netdna.consumerSecret || 'consumerSecret-YYYY'
     });
 
     var options = this.options({
